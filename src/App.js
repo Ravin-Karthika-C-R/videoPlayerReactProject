@@ -6,6 +6,7 @@ import Landing from './pages/Landing';
 import Home from './pages/Home';
 import History from './pages/History';
 import Pnf from './pages/Pnf';
+import SingleCategory from './pages/SingleCategory';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/history' element={<History></History>}></Route>
         <Route path='*' element={<Pnf></Pnf>}></Route>
+        <Route path='/home/singlecategory/:id' element={<SingleCategory></SingleCategory>}></Route>
 
 
       </Routes>

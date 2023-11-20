@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 function Landing() {
   return (
     <div>
-        <div className="container">
+        <div className="container" style={{background:'#F5F5F5'}}> 
 
         
         <Row className="mt-5 mb-5 me-4 ms-5">
@@ -19,7 +19,7 @@ function Landing() {
                </Link> 
             </Col>
             <Col className=" ms-3 me-4 ">
-            <img src="https://miro.medium.com/v2/resize:fit:1400/1*f7cZomxEUsR2AYQVlUXZog.gif" height={500}>
+            <img src="https://cdn.dribbble.com/users/60779/screenshots/2313582/playbutton_animation_nocard_2x.gif" height={500} width={500}>
             </img>
             </Col>
 
@@ -29,7 +29,7 @@ function Landing() {
             <h1 className="text-center mb-5">Features</h1>
             <Col md={3} className="ms-5 mb-5">
             <div class="card mb-5" style={{width:'18rem'}}>
-                 <img class="card-img-top" src="https://cdn.dribbble.com/users/34556/screenshots/1680799/play.gif" alt="Card image cap"/>
+                 <img class="card-img-top" src="https://i.postimg.cc/g07kM9FP/play-fill-loader-unscreen.gif"  alt="Card image cap"/>
                     <div class="card-body">
             <Link to={'/home'}>
 
@@ -45,7 +45,7 @@ function Landing() {
 
             <Col md={3} className=" mb-5">
             <div class="card  mb-5" style={{width:'18rem'}}>
-                <img class="card-img-top" src="https://media2.giphy.com/media/oHvAmqRlyw6oHnIQLL/giphy.gif" height={219} width={300} alt="Card image cap"/>
+                <img class="card-img-top" src="https://media.giphy.com/avatars/soundplate/oTH1GytwBbvD.gif" height={219} width={300} alt="Card image cap"/>
                     <div class="card-body">
                     <Link to={'/home'}>
                         <h5 class="card-title text-danger">Categorise Videos</h5>
@@ -60,7 +60,7 @@ function Landing() {
 
             <Col md={3} className=" mb-5">
             <div class="card  mb-5" style={{width:'18rem'}}>
-                <img class="card-img-top" src="https://solange.co.uk/cdn/shop/files/Rainbow_Soundwave_mobile_750x600_optimised_x800.gif?v=1655295517" height={210} width={300}  alt="Card image cap"/>
+                <img class="card-img-top" src="https://media3.giphy.com/media/umDiqaSIBFbGMDUYoP/giphy.gif?cid=6c09b952b43mnllh18vmm5agfdho7lczsa82q6uc4gdu5rgx&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" height={210} width={300}  alt="Card image cap"/>
                     <div class="card-body">
                     <Link to={'/history'}>
                         <h5 class="card-title text-danger">Watch History</h5>

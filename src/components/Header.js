@@ -2,6 +2,7 @@ import React from "react"
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <div  >
@@ -16,7 +17,7 @@ function Header() {
                   height="50"
                   className="d-inline-block align-top"
                 />{' '}
-                <strong className="" style={{background:'#ff4365', fontSize:'30px'}}>Vid<span></span>Yard</strong>
+                <strong className="" style={{background:'#ff4365', fontSize:'30px', fontFamily: 'Dancing Script',color:'#FCCEEE'}}>VidYard</strong>
               </Navbar.Brand>
           </Link>
         </Container>
